@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.Tel{
+    background-color: rgb(253, 144, 1);
+
+}
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+
+header{
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(1, 1, 32);
+
+}
+.logo h1{
+    color: red;
+    border: 1px solid white;
+    height:45px ;
+    width: 135px;
+    border-radius: 30%;
+    justify-content: left;
+  padding: -5px;
+   
+}
+   
+.logo h1 span{
+    color: white;
+    position: relative;
+    
+}
+.logo1{
+    display: flex;
+}
+.col-3{
+    flex-basis:  30%; 
+    min-width:250px;
+    margin:auto ;
+    width: 150px;
+}
+    
+   
+.col-3 img{
+    width: 100%;
+    padding: 30px;
+}
+
+.contenairre h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(38, 3, 3);
+    
+  
+   
+}
+.menu{
+   margin-top: 10px;
+}
+.logo{
+    margin-top: 10px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 35px;
+ }
+ .logo {
+     margin-left: 30px;
+ }
+ .menu ul li a{
+     margin-right: 100px;
+     text-decoration: none;
+     color: whitesmoke;
+     text-transform: uppercase;
+     border: 1px solid t; 
+     font-weight: 500;
+     
+ 
+ }
+ .menu ul li a:hover{
+     background: #fff;
+     color: #000;
+ 
+ }
+ .active a{
+ background: #969494;
+ color: #000;
+ }
+ 
+ .contenairre{
+     max-width: 1300rem;
+     margin: 20px auto;
+     padding-left: 25px;
+     padding-right: 25px;
+     background-color: chocolate;
+ }
+ .contenairre p{
+    color:whitesmoke;
+ }
+ .categorie{
+     margin-top: 70px 0;
+ }
+ .col-3{
+     flex-basis:  30%; 
+     min-width:250px;
+     margin:auto ;
+     width: 150px;
+    
+     
+ }
+ .col-3 img{
+     width: 100%;
+     height: 400px;
+     
+ }
+ 
+ .contenairre h2{
+     text-align: center;
+     font-size: 1.8rem;
+     color: rgb(38, 3, 3);
+     margin:50px 0;
+ }
+ .row {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+ 
+ /*pied de page*/
+ footer {
+     margin-top: 100px;
+     background-color: #0e0101;
+     color:#fff;
+     height: 100px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 30px;
+ }
+ /* fin pied de page*/
